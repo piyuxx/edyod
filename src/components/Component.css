@@ -141,7 +141,7 @@
     border-radius: 6px;
     padding: 8px 8px;
     justify-content: space-between;
-    align-items: start;
+    align-items: flex-start;
 }
 
 .ltd-head{

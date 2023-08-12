@@ -74,7 +74,7 @@
 .right-side{
     display: flex;
    
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .flexy{
@@ -83,7 +83,7 @@
     color:white;
     font-size: 21px;
     font-weight: 600;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
 }
 
