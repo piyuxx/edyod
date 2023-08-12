@@ -1,0 +1,66 @@
+.custom-navbar {
+  background: white;
+  height: 60px;
+  display: flex;
+  padding: 0 80px;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+}
+
+.custom-left-section {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.custom-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.custom-logo-image {
+  height: 35px;
+  width: auto;
+}
+
+.custom-dropdown-container {
+  display: flex;
+  gap: 50px;
+  font-weight: 500;
+}
+
+.custom-dropdown {
+  outline: none;
+  border: 6px solid transparent;
+  border-color: transparent transparent transparent transparent;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #000;
+  background: #ffffff;
+}
+
+.custom-right-section {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  color: #000;
+}
+
+.custom-login-button button {
+  outline: none;
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.custom-join-button button {
+  border-radius: 3.25rem;
+  background: linear-gradient(224deg, #0048FF 0%, #0096FF 100%);
+  padding: 0.625rem 2.625rem;
+  color: var(--text4);
+  outline: none;
+  border: none;
+}
+

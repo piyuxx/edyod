@@ -1,0 +1,97 @@
+.home{
+    display: flex;
+    gap: 16px;
+    padding: 72px  100px;
+}
+.left{
+    gap:48px;
+}
+
+.verical-gap{
+    gap: 1000px;
+}
+
+.left, .right-side{
+    flex: 1;
+}
+
+.heading h1{
+    color: var(--text4);
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 35px !important;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0 auto;
+    letter-spacing: -0.035rem;
+}
+
+.right-box{
+    width: 549px;
+    padding: 2rem 1.5rem;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1.7em;
+}
+
+.entry-step{
+    display: flex;
+    justify-content: space-around;  
+    align-content: center;
+}
+
+.entry-step1, .entry-step2{
+    align-items: center;
+    justify-content: center;
+}
+
+.entry-step1 button, .entry-step2 button{
+    height: 38px;
+    width: 38px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--primary1);
+    color: var(--text4);
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.entry-step1 p, .entry-step2 p{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text2);
+    margin: 0;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-side{
+    display: flex;
+   
+    justify-content: end;
+}
+
+.flexy{
+    display: flex;
+    gap: 40px;
+    color:white;
+    font-size: 21px;
+    font-weight: 600;
+    justify-content: start;
+    align-items: center;
+}
+
+.images{
+    width: 40px;
+    height: 40px;
+}
+
+.high{
+    color: rgb(0, 150, 255);
+}
