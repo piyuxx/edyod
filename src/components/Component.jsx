@@ -5,7 +5,7 @@ import time from '../assets/t.svg'
 import razorpay from '../assets/card.svg'
 
 const Component = () => {
-  const [active, setActive] = useState('p2');
+  const [active, setActive] = useState('a2');
   let totalFee = 18500;
   const [amount, setAmount] = useState('18500');
   const gst = 0.18; // 18% GST
